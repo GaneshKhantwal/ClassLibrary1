@@ -9,9 +9,9 @@ namespace ClassLibrary2
 {
     public class Class2
     {
-        public void MethodB(Class1 cls1)
+        public void MethodB(Class1 cls1, int b)
         {
-            cls1.MethodA(this);
+            cls1.MethodA(this,5);
          
         }
     }
